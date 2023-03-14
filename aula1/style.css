@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-fon-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: 'inter', sans-serif;
+
+}
+
+
+.landpage {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.links {
+
+  margin-top: 72px;
+  justify-content: space-between;
+}
+
+.links a {
+  padding: 32px;
+}
+
+
+
+h1,
+span {
+  color: #FFC700;
+}
+
+h1 {
+  font-family: 'Emilys Candy';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a {
+
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+
+  padding: 12px;
+  border: 0;
+  background: #FFC700;
+}
+
+button a {
+
+  font-weight: 700;
+  font-size: 20px;
+
+  text-decoration: none;
+  color: #040101;
+}

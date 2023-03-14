@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-fon-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Cinzel', serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+
+}
+
+.landpage {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.links {
+
+  margin-top: 72px;
+  justify-content: space-between;
+}
+
+.links a {
+  padding: 32px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+  text-align: center;
+  width: 677px;
+  height: 86px;
+  color: #151718;
+}
+
+span {
+  color: #DB2777;
+}
+
+p {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(44, 46, 47, 0.9);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: #151718;
+}
+
+button {
+  border-radius: 80px;
+  padding: 12px;
+  border: 0;
+  background: #DB2777;
+}
+
+button a {
+
+  font-weight: 700;
+  font-size: 20px;
+
+
+  color: #FFFFFF;
+}
