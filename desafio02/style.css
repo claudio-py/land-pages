@@ -4,7 +4,7 @@
   box-sizing: border-box;
   -webkit-fon-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Cinzel', serif;
+color: #EBF1FB;
 }
 
 :root {
@@ -16,14 +16,16 @@ body {
   background-image: url("./assets/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   height: 100vh;
+font-family: 'Spectral', serif;
 
 }
 
+
 .landpage {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -36,56 +38,66 @@ body {
 }
 
 .links {
-
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
   margin-top: 72px;
-  justify-content: space-between;
+
 }
 
-.links a {
-  padding: 32px;
+
+
+
+span {
+  color: #5EEAD4;
 }
 
 h1 {
-
-  font-weight: 700;
+  font-family: 'Beth Ellen', cursive;
+  font-weight: 400;
   font-size: 64px;
-  line-height: 86px;
+line-height: 120px;
   text-align: center;
-  width: 677px;
-  height: 86px;
-  color: #151718;
 }
 
-span {
-  color: #DB2777;
-}
 
 p {
-  font-family: 'Inter';
-  font-weight: 400;
+  margin-top: 4px;
+  font-weight: 500;
   font-size: 20px;
-  color: rgba(44, 46, 47, 0.9);
 }
 
 a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 20px;
-  color: #151718;
+  padding: 12px 32px;
+
+  font-weight: 600;
+  font-size: 24px;
+  
+
 }
 
 button {
-  border-radius: 80px;
-  padding: 12px;
+border-radius: 8px;
+  padding: 12px 0;
   border: 0;
-  background: #DB2777;
+  background: #5EEAD4;
 }
 
 button a {
 
-  font-weight: 700;
-  font-size: 20px;
+  font-family: 'Spectral', serif;
 
 
-  color: #FFFFFF;
+  text-decoration: none;
+  color: #0B0C0E;
+}
+
+button:hover {
+  background: #57aba0;
+}
+
+
+
+.links > a:hover {
+  color:#57aba0;
 }

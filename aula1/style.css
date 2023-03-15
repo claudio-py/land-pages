@@ -16,7 +16,7 @@ body {
   background-image: url("./assets/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   height: 100vh;
   font-family: 'inter', sans-serif;
 
@@ -38,13 +38,11 @@ body {
 }
 
 .links {
-
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
   margin-top: 72px;
-  justify-content: space-between;
-}
 
-.links a {
-  padding: 32px;
 }
 
 
@@ -74,15 +72,17 @@ p {
 }
 
 a {
+  padding: 12px 32px;
 
   font-weight: 700;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.6);
+
 }
 
 button {
 
-  padding: 12px;
+  padding: 12px 0;
   border: 0;
   background: #FFC700;
 }
@@ -94,4 +94,16 @@ button a {
 
   text-decoration: none;
   color: #040101;
+}
+
+button:hover {
+  background: red;
+}
+
+button a:hover {
+  color: #FFC700;
+}
+
+a:hover {
+  color: #FFC700;
 }
